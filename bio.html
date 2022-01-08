@@ -1,6 +1,4 @@
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -16,29 +14,33 @@
 </head>
 
 <body>
-  <div style="text-align: center; padding-top: 20px;">
-    <div style="display: inline-block;">
-      <img id="mainpic" src="eliseart.png" height="300" width="224" style="display: block; padding-right: 10%; padding-bottom: 1%;">
-      <img id="altpic" src="altpic.png" height="200" width="267" style="display: none; padding-right: 5%;">
-      <img src="penguin.png" onclick="picturechange()" height="28" width="37" style="padding-right: 5%">
-    </div>
-
-    <div style="display: inline-block; height: 200; text-align: center; font-size: 12pt; padding-bottom: 30px;">
-      <p class="titlename" style="font-size: 30pt">Charles Cui 崔元</p>
-      <p>Pronouns: He/Him/His</p>
-      <p>Ph.D. Student in Computer Science</p>
-      <p>Northwestern University</p>
-      <a href="mailto:yuancui2025@u.northwestern.edu" target="_blank">charlescui@u.northwestern.edu</a>
-    </div>
-  </div>
-
   <div class="topnav">
-    <a href="index.html">Home</a>
+    <a href="index.html" class="active">Home</a>
     <a href="research.html">Research</a>
     <a href="teaching.html">Teaching</a>
-    <a href="bio.html" class="active">Bio</a>
+    <a href="bio.html">Bio</a>
     <a href="fun.html">Fun</a>
   </div>
+  
+  <!----------------------------
+    Header  
+  ------------------------------> 
+    <div class="header">
+      <div class="pictures">
+        <img id="mainpic" src="eliseart.png">
+        <img id="altpic" src="altpic.png">
+        <img id="clicker" src="penguin.png" onclick="picturechange()"> 
+      </div>
+  
+      <div class="basicinfo">
+        <p class="titlename">Charles Cui 崔元</p>
+        <p>&nbsp;&nbsp;Ph.D. Student in Computer Science</p>
+        <p>&nbsp;&nbsp;Northwestern University</p>
+        <p>&nbsp;&nbsp;Pronouns: He/Him/His</p>
+        <p>&nbsp;&nbsp;charlescui [at] u [dot] northwestern [dot] edu</p>
+        <!--- <a href="mailto:yuancui2025@u.northwestern.edu" target="_blank">charlescui@u.northwestern.edu</a> --->
+      </div>
+    </div>
 
   <div class="content">
     Previously, I received my B.A. at <a href="https://www.oberlin.edu/">Oberlin College</a> in 2020, where I was fortunate to be mentored by 
